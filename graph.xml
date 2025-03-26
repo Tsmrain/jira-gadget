@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <gadget>
+        <title>Tickets Creados, Resueltos y Escalados</title>
+        <description>Gráfico de barras para tickets creados, resueltos y escalados</description>
+        <gadget-url>https://tu-servidor.com/gadget.html</gadget-url>
+        <thumbnail>https://tu-servidor.com/thumbnail.png</thumbnail>
+        <configuration>
+            <param name="filterId" type="filter" required="true"/>
+            <param name="interval" type="string" required="true" default="daily"/>
+        </configuration>
+    </gadget>
+</module>
